@@ -1,0 +1,525 @@
+.utility-bar {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 40px;
+  font-size: 12px;
+}
+
+.utility-links {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.utility-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
+}
+
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 60px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-container {
+  background: #f5f5f5;
+  padding: 8px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-container input {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding-left: 8px;
+  width: 120px;
+}
+
+
+.hero{
+position:relative;
+height:100vh;
+width:100%;
+overflow:hidden;
+}
+
+.hero-img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.hero-content{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;
+}
+
+.hero-content h1{
+font-size:70px;
+font-weight:900;
+}
+
+.hero-content p{
+margin-top:10px;
+font-size:18px;
+}
+
+.hero-buttons{
+margin-top:20px;
+display:flex;
+gap:15px;
+justify-content:center;
+}
+
+.hero-buttons a{
+padding:10px 20px;
+background:white;
+color:black;
+border-radius:20px;
+text-decoration:none;
+font-size:14px;
+}
+
+.watch{
+background:black;
+color:white;
+}
+
+.slider-controls{
+position:absolute;
+bottom:20px;
+right:20px;
+display:flex;
+gap:10px;
+}
+
+.slider-controls button{
+width:40px;
+height:40px;
+border-radius:50%;
+border:none;
+background:rgba(255,255,255,0.8);
+cursor:pointer;
+font-size:16px;
+}
+/* Container & Header */
+.trending-container {
+  padding: 40px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.arrow-btn {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+/* The Grid */
+.trending-grid {
+  display: flex;
+  gap: 12px;
+}
+
+.trending-card {
+  position: relative;
+  flex: 1;
+  aspect-ratio: 4 / 5; /* Specific portrait ratio from the image */
+  overflow: hidden;
+}
+
+.trending-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* The Content Overlay */
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Pushes content to the bottom */
+  background: linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 30%);
+  color: white;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+/* The Pill Button */
+.btn-shop {
+  background: white;
+  color: black;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  width: fit-content;
+  font-weight: 600;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+
+.btn-shop:hover {
+  opacity: 0.8;
+}
+.athlete-pick {
+    
+    font-size: 24px;
+    font-weight: 500; 
+    color: #000000; 
+    background-color: #ffffff;
+    
+    /* Layout */
+    padding: 20px;
+    letter-spacing: -0.01em; 
+  }
+
+  
+  .athlete-pick span {
+    color: #0047AB; 
+    text-decoration: none;
+  }
+  .hero{
+  height:90vh;
+  background: url("mm.jpg") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+
+.hero-content h1{
+   font-size:70px;
+  font-weight:900;
+  margin-bottom:15px;
+}
+
+.hero-content p{
+  font-size:14px;
+  max-width:600px;
+  margin:auto;
+  margin-bottom:25px;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:15px;
+  justify-content:center;
+}
+
+.btn{
+  text-decoration:none;
+  padding:10px 20px;
+  color:black;
+  border-radius:25px;
+  font-size:14px;
+  font-weight:bold;
+}
+.watch{
+  background:#f1f1f1;
+}
+.move-section{
+  padding:40px;
+  background:#f5f5f5;
+}
+
+.move-section h2{
+  font-size:24px;
+  margin-bottom:20px;
+}
+
+.move-container{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  position:relative;
+  overflow:hidden;
+  border-radius:6px;
+}
+
+.card img{
+  width:100%;
+  height:500px;
+  object-fit:cover;
+  display:block;
+}
+
+.card button{
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  padding:8px 15px;
+  border:none;
+  background:white;
+  border-radius:20px;
+  font-weight:bold;
+  cursor:pointer;
+}
+/* SHOP ICONS */
+
+.icon-grid{
+  flex-direction:column;
+}
+
+* Container styling */
+.shop-icons {
+  font-family: Arial, sans-serif;
+  padding: 40px 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* Horizontal layout for the shoes */
+.icon-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+/* Individual shoe card */
+.icon-card {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the button under the shoe */
+}
+
+.icon-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* The black pill buttons */
+.icon-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 50px; /* Makes it a pill shape */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.icon-btn:hover {
+  opacity: 0.7;
+}
+.footer-container{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:40px;
+margin-bottom:40px;
+}
+
+.footer-column h4{
+font-size:14px;
+margin-bottom:15px;
+}
+
+.footer-column ul{
+list-style:none;
+padding:0;
+}
+
+.footer-column li{
+margin:8px 0;
+}
+
+.footer-column a{
+text-decoration:none;
+color:#555;
+font-size:13px;
+}
+
+.footer-column a:hover{
+color:black;
+}
+
+hr{
+border:none;
+border-top:1px solid #ddd;
+margin:30px 0;
+}
+
+.footer-bottom{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+font-size:12px;
+color:#666;
+}
+
+.footer-links a{
+margin-left:20px;
+text-decoration:none;
+color:#666;
+}
+
+.footer-links a:hover{
+color:black;
+}
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 768px){
+
+/* NAVBAR */
+.utility-bar{
+padding:4px 15px;
+font-size:11px;
+}
+
+.main-nav{
+flex-direction:column;
+align-items:flex-start;
+height:auto;
+padding:10px 15px;
+gap:10px;
+}
+
+.nav-links{
+flex-wrap:wrap;
+gap:12px;
+font-size:14px;
+}
+
+.search-container input{
+width:100%;
+}
+
+/* HERO */
+
+.hero{
+height:70vh;
+}
+
+.hero-content h1{
+font-size:36px;
+}
+
+.hero-content p{
+font-size:14px;
+}
+
+.hero-buttons{
+flex-direction:column;
+gap:10px;
+}
+
+/* TRENDING */
+
+.trending-grid{
+flex-direction:column;
+}
+
+/* MOVE SECTION */
+
+.move-container{
+grid-template-columns:1fr;
+}
+
+.card img{
+height:300px;
+}
+
+/* SHOP ICONS */
+
+.icon-grid{
+flex-direction:column;
+gap:20px;
+}
+
+.icon-card{
+min-width:100%;
+}
+
+/* FOOTER */
+
+.footer-container{
+grid-template-columns:1fr;
+gap:25px;
+}
+
+.footer-bottom{
+flex-direction:column;
+text-align:center;
+gap:10px;
+}
+
+.footer-links a{
+margin:5px;
+}
+
+}
